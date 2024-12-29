@@ -1,0 +1,177 @@
+{
+  "name": "Polealis",
+  "author": "Your Name",
+  "maintainers": ["Your Name <your.email@example.com>"],
+  "type": "dark",
+  "semanticTokenColors": {
+    "parameter.declaration": {
+      "foreground": "#FF8C00" /* Bold orange for parameters */
+    },
+    "parameter": {
+      "foreground": "#A3E0FF" /* Light blue for general parameters */
+    },
+    "property.declaration": {
+      "foreground": "#76EEC6" /* Vibrant green for properties */
+    },
+    "property.defaultLibrary": {
+      "foreground": "#FDDF84" /* Yellow for default library properties */
+    },
+    "*.defaultLibrary": {
+      "foreground": "#FDDF84"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#FDDF84"
+    },
+    "variable.declaration": {
+      "foreground": "#FF66CC" /* Electric pink for variable declarations */
+    },
+    "variable": {
+      "foreground": "#00FF7F" /* Neon green for general variables */
+    }
+  },
+  "semanticClass": "polealis",
+  "colors": {
+    "foreground": "#A9B1D6" /* Light blue for general foreground */,
+    "descriptionForeground": "#8A9BAE" /* Slightly muted for descriptions */,
+    "focusBorder": "#76EEC644" /* Light green focus border */,
+    "errorForeground": "#FF5C8D" /* Vibrant red for errors */,
+    "widget.shadow": "#FFFFFF00",
+    "scrollbar.shadow": "#00000033",
+    "badge.background": "#FF55FF" /* Bold pink for badges */,
+    "badge.foreground": "#FFFFFF",
+    "icon.foreground": "#A9B1D6",
+    "settings.headerForeground": "#FF66CC" /* Electric pink for headers */,
+    "window.activeBorder": "#2F2F2F",
+    "window.inactiveBorder": "#2F2F2F",
+    "sash.hoverBorder": "#76EEC6",
+
+    "toolbar.activeBackground": "#202330",
+    "toolbar.hoverBackground": "#202330",
+
+    "extensionButton.prominentBackground": "#FF69B4",
+    "extensionButton.prominentHoverBackground": "#FF57A1",
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionBadge.remoteBackground": "#76EEC6",
+    "extensionBadge.remoteForeground": "#FFFFFF",
+
+    "button.background": "#FF69B4",
+    "button.hoverBackground": "#FF57A1",
+    "button.secondaryBackground": "#3B3E52",
+    "button.foreground": "#FFFFFF",
+    "progressBar.background": "#76EEC6",
+
+    "input.background": "#1A1B26",
+    "input.foreground": "#A9B1D6",
+    "input.border": "#0F0F14",
+    "input.placeholderForeground": "#787C998A",
+    "inputOption.activeForeground": "#C0CAF5",
+    "inputOption.activeBackground": "#FF69B433",
+
+    "inputValidation.infoForeground": "#BBC2E0",
+    "inputValidation.infoBackground": "#76EEC65C",
+    "inputValidation.infoBorder": "#76EEC6",
+    "inputValidation.warningForeground": "#000000",
+    "inputValidation.warningBackground": "#C2985B",
+    "inputValidation.warningBorder": "#FF8C00",
+    "inputValidation.errorForeground": "#BBC2E0",
+    "inputValidation.errorBackground": "#85353E",
+    "inputValidation.errorBorder": "#963C47",
+
+    "dropdown.foreground": "#787C99",
+    "dropdown.background": "#14141B",
+    "dropdown.listBackground": "#14141B",
+
+    "activityBar.background": "#16161E",
+    "activityBar.foreground": "#76EEC6" /* Green for activity bar */,
+    "activityBar.inactiveForeground": "#3B3E52",
+    "activityBar.border": "#16161E",
+    "activityBarBadge.background": "#FF69B4" /* Bold pink for badges */,
+    "activityBarBadge.foreground": "#FFFFFF",
+
+    "sideBar.foreground": "#A9B1D6",
+    "sideBar.background": "#16161E",
+    "sideBar.border": "#101014",
+    "sideBarTitle.foreground": "#76EEC6",
+    "sideBarSectionHeader.background": "#16161E",
+    "sideBarSectionHeader.foreground": "#A9B1D6",
+    "sideBarSectionHeader.border": "#101014",
+    "sideBar.dropBackground": "#1E202E",
+
+    "selection.background": "#515C7E40",
+    "editor.background": "#1A1B26",
+    "editor.foreground": "#A9B1D6",
+    "editor.selectionBackground": "#76EEC640",
+    "editor.selectionHighlightBackground": "#515C7E44",
+    "editor.inactiveSelectionBackground": "#515C7E25",
+
+    "editorCursor.foreground": "#C0CAF5",
+    "editorIndentGuide.background1": "#232433",
+    "editorIndentGuide.activeBackground1": "#363B54",
+    "editorLineNumber.foreground": "#363B54",
+    "editorLineNumber.activeForeground": "#737AA2",
+    "editor.lineHighlightBackground": "#1E202E",
+    "editorWhitespace.foreground": "#363B54",
+
+    "editorError.foreground": "#FF5370" /* Bold red for errors */,
+    "editorWarning.foreground": "#FF8C00" /* Vibrant orange for warnings */,
+    "editorInfo.foreground": "#0DA0BA" /* Cyan for info */,
+    "editorHint.foreground": "#0DA0BA"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#8A9BAE" /* Muted gray for comments */
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#FF66CC" /* Electric pink for variables */
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": ["constant.other.color"],
+      "settings": {
+        "foreground": "#F78C6C" /* Bold orange for color constants */
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FF5370" /* Bold red for invalid syntax */
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#76EEC6" /* Vibrant green for keywords */
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "punctuation",
+        "meta.tag",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#89DDFF" /* Light blue for operators */
+      }
+    }
+  ]
+}

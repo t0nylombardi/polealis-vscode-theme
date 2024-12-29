@@ -1,0 +1,41 @@
+{
+  "name": "polealis",
+  "displayName": "Polealis",
+  "description": "A captivating and ethereal color palette inspired by the mystical dance of the Northern Lights, where the cold, vast expanse of the polar skies meets vibrant bursts of color.",
+  "publisher": "t0nylombardi",
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [
+    "theme",
+    "contrast",
+    "dark",
+    "light",
+    "polealis",
+    "clean"
+  ],
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Polealis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/polealis-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^1.106.0"
+  },
+  "__metadata": {
+    "size": 37801
+  }
+}
